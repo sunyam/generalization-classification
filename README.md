@@ -1,11 +1,13 @@
 # generalization-classification
 #### Deep learning models for text classification using AllenNLP
 
-This project tackles a binary text classification problem where we have 3,456 instances/sentences annotated for whether they encode a “generalization” or not.
-This repository contains the annotated data & code for various deep learning models with the option of using pre-trained GloVe embeddings or ELMo embeddings.
+This project tackles a binary text classification problem where we have 3,456 instances/sentences annotated for whether they encode a “generalization” or not. This repository contains the annotated data & code for various deep learning models with the option of using pre-trained GloVe embeddings or ELMo embeddings.
+
 3-fold cross validation is used with stratified splits (see <i>/src/Preprocessing</i> notebook).
 If the notebooks don't load on Github, you can always use Jupyter's <a href="https://nbviewer.jupyter.org/">nbviewer</a>.
 All implementations are in Python 3.7 and utilise <i>AllenNLP</i> (0.8.4) and <i>PyTorch</i> (1.1.0) which are powerful deep learning frameworks. Thanks to Keita for this lovely <a href="http://mlexplained.com/2019/01/30/an-in-depth-tutorial-to-allennlp-from-basics-to-elmo-and-bert/">tutorial</a> on AllenNLP.
+
+By default, models use GloVe embeddings. Functionality to use ELMo embeddings with --elmo.
 
 The different models implemented in this repository are:
 - Long Short Term Memory Networks (LSTM)
