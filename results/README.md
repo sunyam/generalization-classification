@@ -1,1 +1,1 @@
-Results for the different deep learning models we experimented with. CNN performs the best. See /src/compare-models/
+Results for the different deep learning models we experimented with can be seen in ```results.tsv```.
