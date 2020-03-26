@@ -1,3 +1,3 @@
-Raw training data file: Gen_Sentences
-*_fold files are for comparing models only
-The main test file is ..
+- <i>Gen_Sentences_Annotated_All_Final.csv</i> is the unprocessed training set.
+- <i>Gen_Sentences_Annotated_All_Final_Processed.csv</i> is the processed training set. This CSV is also split into stratified train/val/test fold CSVs for different models' performance comparison; corresponding code in ```/src/compare-models/Preprocessing.ipynb```
+- <i>TEST_SET.csv</i> is the main test set and consists of 16,816 sentences from Introduction and Conclusion of 230 TXTs. The corresponding file with CNN's predictions is in ```/predictions/TEST_SET_predictions.csv```
